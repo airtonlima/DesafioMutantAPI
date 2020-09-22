@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioMutant.API</name>
+    </assembly>
+    <members>
+        <member name="T:DesafioMutant.API.Controllers.HomeController">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:DesafioMutant.API.Controllers.HomeController.#ctor(DesafioMutant.API.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:DesafioMutant.API.Controllers.HomeController.GetData">
+            <summary>
+            Método Responsável por Baixar os Dados de Uma API externa.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMutant.API.Controllers.HomeController.SaveData(System.Collections.Generic.List{DesafioMutant.API.Models.UserDTO})">
+            <summary>
+            Método Reponsável por Fazer as devidas transformações e Inserir os registros no Banco de Dados.
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
